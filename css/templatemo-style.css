@@ -434,7 +434,7 @@ footer hr
 
 .timeline {
   position: relative;
-  width: 660px;
+  width: 100px;
   margin: 0 auto;
   margin-top: 20px;
   padding: 1em 0;
@@ -443,7 +443,7 @@ footer hr
 
 .timeline:before {
   position: absolute;
-  left: 50%;
+  left: -234%;
   top: 0;
   content: ' ';
   display: block;

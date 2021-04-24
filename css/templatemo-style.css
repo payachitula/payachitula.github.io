@@ -54,10 +54,16 @@ h1,h2,h3,h4,h5
 /* end all heading */
 
 /* start all section */
-#work, #about, #portfolio, #contact
+#work, #portfolio, #contact
     {
         padding-top: 100px;
         padding-bottom: 120px;
+    }
+	
+	#about
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 /* end all section */
 
@@ -436,7 +442,6 @@ footer hr
   position: relative;
   width: 100px;
   margin: 0 auto;
-  margin-top: 20px;
   padding: 1em 0;
   list-style-type: none;
 }
@@ -489,7 +494,7 @@ footer hr
 .flag-wrapper {
   position: relative;
   display: inline-block;
-  
+  width: max-content;
   text-align: center;
 }
 
@@ -593,6 +598,7 @@ footer hr
   font-size: 0.77777em;
   font-style: italic;
   line-height: 1.5em;
+  width : 40em
 }
 
 .direction-r .desc {

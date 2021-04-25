@@ -734,6 +734,12 @@ ap {
 	margin: 0 auto;
 }
 
+.academicCard {
+	color : black;
+}
+
+
+
 .card {
 	cursor: pointer;
 	position: relative;

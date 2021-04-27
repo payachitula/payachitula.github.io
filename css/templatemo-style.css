@@ -36,6 +36,10 @@ body
 #portfolio .fp-slide,
 #portfolio .fp-tableCell,
 
+#academic,
+#academic .fp-slide,
+#academic .fp-tableCell,
+
 footer,
 footer .fp-slide,
 footer .fp-tableCell
@@ -63,7 +67,13 @@ h1,h2,h3,h4,h5
 	#about
     {
         padding-top: 10px;
+    }
+	
+	#academic
+    {
+        padding-top: 10px;
         padding-bottom: 10px;
+		background : #1a1a1a;
     }
 /* end all section */
 

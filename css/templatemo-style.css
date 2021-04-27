@@ -723,7 +723,8 @@ footer hr
 ap {
 	position: absolute;
 	bottom: 0;
-	font-size: 14px;
+	font-size: 15px;
+	color: black;
 }
 
 .academiccontainer {
@@ -736,6 +737,7 @@ ap {
 
 .academicCard {
 	color : black;
+	font-size: 20px;
 }
 
 
@@ -762,8 +764,8 @@ ap {
 
 .child {
 	position: absolute;
-	width: 100%;
-	height: 100%;
+	width: 80%;
+	height: 60%;
 	padding: 0 16px;
 	box-sizing: border-box;
 	background: #fff;
@@ -773,30 +775,36 @@ ap {
 	--translate: calc(var(--offset) * var(--offset-multiplier));
 	transform: translate(var(--translate), var(--translate));
 	z-index: 5;
+	background: #d33f52;
 }
 
 .child:nth-child(1) {
 	--offset: 0;
 	z-index: 4;
+	background: #d33f52;
 }
 
 .child:nth-child(2) {
 	--offset: 1;
 	z-index: 3;
+	background: #d33f52;
 }
 
 .child:nth-child(3) {
 	--offset: 2;
 	z-index: 2;
+	background: #d33f52;
 }
 
 .child:nth-child(4) {
 	--offset: 3;
 	z-index: 1;
+	background: #d33f52;
 }
 
 .child:nth-child(5) {
 	--offset: 4;
 	z-index: 0;
+	background: #d33f52;
 }
 /*academic achievements card end */

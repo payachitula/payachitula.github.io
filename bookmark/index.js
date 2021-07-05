@@ -15,4 +15,9 @@ window.onload = function() {
     };
     
     ko.applyBindings(viewModel);
+	
+	
+	for(let i=0;i<document.getElementsByClassName("dx-treeview-node").length;i++) {document.getElementsByClassName("dx-treeview-node")[i].onclick=function(){console.log(document.getElementsByClassName("dx-treeview-node")[i].getAttribute('data-item-id'));}}
+	//applying same for multiple nodes
+	
 };

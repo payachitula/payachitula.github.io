@@ -8,7 +8,6 @@ jQuery(window).load(function(){
 	document.getElementsByClassName("current")[0].className="";
 	document.getElementsByClassName("current")[0].className="";
 	document.getElementById("hometab").className="current";
-	document.getElementById("statsmargin").setAttribute("style", "margin-right: -200px;");
 
 });
 
